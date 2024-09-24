@@ -1,3 +1,6 @@
+html {
+    font-family: "Playwrite DE Grund", cursive;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,6 +14,40 @@ ul, li {
 a {
     color: currentColor;
     text-decoration: none;
+}
+
+/* HEADER */
+.main-header {
+    background-color: rgb(255, 115, 0);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-menu, .foot-menu ,.menu-logo {
+    display: flex;
+}
+
+.main-menu {
+    gap: 25px;    
+}
+
+.menu-logo, .foot-menu, .menu-logo {
+    gap: 10px;    
+}
+
+.logo {
+    width: 150px
+}
+
+.main-menu, .cta {
+    margin: 0 30px;
+    color: white;
 }
 
 /* layout */ 
@@ -119,4 +156,20 @@ span {
 
 .text:hover {
     font-size: 150%;
+}
+
+/* FOOTER */
+
+.main-footer {
+    background-color: rgba(7, 7, 7, 0.918);
+    color: white;
+    line-height: 3em;
+}
+
+.cta >* :hover {
+    opacity: 0.6;
+}
+
+.privacy:hover {
+    text-decoration: underline;
 }
