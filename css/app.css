@@ -33,8 +33,10 @@ img {
 .col {
     width: calc(100% / 3);
     padding-right: 15px;
-    padding-bottom: 30px ;
+    margin-bottom: 50px ;
 }
+
+/* ELEMENTI DENTRO LAYOUT */
 
 .capture {
     position: relative;
@@ -49,4 +51,72 @@ span {
     top: 5px;
     right: 5px;
     width: 50px;
+    border-radius: 30px;
+}
+
+.sconto{
+    background-color: red;
+}
+
+.eco {
+    position: absolute;
+    left: 60px;
+    background-color: green;
+
+}
+
+.eco-lt {
+    background-color: green;
+}
+
+.eco, .sconto, .eco-lt {
+    position: absolute;
+    bottom: 50px;
+    padding: 3px 10px;
+    color: white;
+}
+
+.sconto, .eco-lt {
+    left: 0;
+}
+
+.card:hover {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card-1:hover {
+    background-image: url(../img/1b.webp);
+}
+
+.card-2:hover {
+    background-image: url(../img/2b.webp);
+}
+
+.card-3:hover {
+    background-image: url(../img/3b.webp);
+}
+
+.card-4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.card-5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.card-6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+.picture:hover {
+    opacity: 0;
+}
+
+.heart:hover  {
+    background-color: red;
+}
+
+.text:hover {
+    font-size: 150%;
 }
