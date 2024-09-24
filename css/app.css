@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* layout */ 
+
+.layout-1{
+    background-color: blanchedalmond;
+}
+.container {
+    margin: 100px 200px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding: 20px
+}
+
+.capture {
+    min-height: 350px;
+}
+
+.text {
+    max-height: 25px;
+}
+
+/* debug */
+
+.debug {
+    min-height: 500px;
+    border: 2px dashed black;
+    background-color: chartreuse;
+}
+
+.text {
+    border: 2px dashed black;
+}
