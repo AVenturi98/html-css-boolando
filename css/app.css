@@ -15,39 +15,38 @@ a {
 
 /* layout */ 
 
-.layout-1{
-    background-color: blanchedalmond;
+img {
+    max-width: 100%;
+    display: block;
 }
+
 .container {
-    margin: 100px 200px;
+    margin: 50px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
 
 .col {
     width: calc(100% / 3);
-    padding: 20px
+    padding-right: 15px;
+    padding-bottom: 30px ;
 }
 
 .capture {
-    min-height: 350px;
+    position: relative;
 }
 
-.text {
-    max-height: 25px;
+span {
+    color: red;
 }
 
-/* debug */
-
-.debug {
-    min-height: 500px;
-    border: 2px dashed black;
-    background-color: chartreuse;
-}
-
-.text {
-    border: 2px dashed black;
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 50px;
 }
